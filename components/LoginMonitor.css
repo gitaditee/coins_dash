@@ -1,0 +1,9 @@
+.area-container{
+    height: 600px;
+}
+.area-card{
+    height: 120px;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 60px;
+}

@@ -1,0 +1,20 @@
+.head-container{
+    background-color: rgba(23,73,115,255);
+}
+.lang-select{
+    max-width: 100px;
+    background-color: rgba(23,73,115,255);
+    color: rgba(23,73,115,255);
+}
+header{
+    height: 50px;
+    
+}
+option{
+    background-color: rgba(23,73,115,255);
+    color: white;
+}
+span{
+    color: white;
+}
+
