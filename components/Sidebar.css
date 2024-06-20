@@ -1,7 +1,8 @@
 .bgcolor{
     background-color: rgba(23,73,115,255);
-    height: 700px;
-    
+    height: 950px;
+   border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .icongap{
     margin-right: 5px;

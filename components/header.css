@@ -2,9 +2,16 @@
     background-color: rgba(23,73,115,255);
 }
 .lang-select{
-    max-width: 100px;
+    max-width: 80px;
     background-color: rgba(23,73,115,255);
     color: rgba(23,73,115,255);
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
 }
 header{
     height: 50px;
@@ -17,4 +24,13 @@ option{
 span{
     color: white;
 }
-
+.login{
+    margin-left: 50px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+}

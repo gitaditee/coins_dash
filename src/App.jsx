@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Header2 from '../components/Header2'
 import Sidebar from '../components/Sidebar'
-import DashBoardoverview from '../components/Dashboardoverview'
+import Dashbd from '../components/Dashbd'
 import Perfromancemonitor from '../components/Performancemonitor'
 import Memorymonitor from '../components/Memorymonitor'
 import LoginMonitor from '../components/LoginMonitor'
@@ -22,7 +22,7 @@ function App() {
    <div className='header-app'>
     <Header></Header>
     <Header2></Header2>
-    {selecttab=== "Dashboard Overview" ? <DashBoardoverview></DashBoardoverview> :
+    {selecttab === "Dashboard Overview" ? <Dashbd></Dashbd>:
    selecttab === "Login Monitoring" ? <LoginMonitor></LoginMonitor> : 
   selecttab === "Memory Monitoring" ? <Memorymonitor></Memorymonitor> :
   selecttab === "Perfromance Moniroting" ? <Perfromancemonitor></Perfromancemonitor> : null
