@@ -5,6 +5,7 @@ function Header2(){
            <nav class="navbar coins-head ">
   <div class="container-fluid">
     <a class="navbar-brand text-light " > Coins DashBoard Portal</a>
+    
     <a class="navbar-brand text-light " >FAQ</a>
   </div>
 </nav>

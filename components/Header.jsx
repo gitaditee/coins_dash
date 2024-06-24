@@ -1,5 +1,7 @@
 import "./header.css";
+
 function Header(){
+   
     return(
         <>
         <div className="head-container">
@@ -11,9 +13,9 @@ function Header(){
         <br></br>
         
       </a>
-      <button type="button" class="btn btn-outline-light login">Login</button>
+      <button type="button" class="btn btn-outline-light login">Log Out </button>
       <br></br>
-      <select class="form-select lang-select btn btn-primary dropdown-toggle dropdown-toggle" >
+      <select class="form-select lang-select btn btn-primary" >
   <option selected>English</option>
   <option value="1">Hindi</option>
   <option value="2">Telugu</option>

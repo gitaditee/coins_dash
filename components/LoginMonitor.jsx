@@ -4,6 +4,8 @@ import "./LoginMonitor.css";
 import DataCard from "./DataCard";
 import Barchart from "./Barchart";
 function LoginMonitor(){
+  //  ------------------------ data -------------------
+
   const cards = [
     { bgcolor:"bg-primary-subtle",
       images :"./images/dailyuser.png",
@@ -41,6 +43,9 @@ function LoginMonitor(){
   ]
     return(
         <>
+
+        {/* -----------------------     passing values in card ------------ */}
+        
         <div className="bg-secondary bg-gradient bg-opacity-10" style={{width:"100%", height:"100%"}}>
           <div style={{display:"flex"}}>
         <div className="bg-white rounded-3 shadow rounded" style={{marginTop:"10px", width:"70%", marginLeft:"20px"}}>
@@ -56,13 +61,17 @@ function LoginMonitor(){
 </div>
 </div>
 
+
+ {/*   -------------------------- line chart in side -----------------------*/}
 </div>
-<div className="bg-white rounded-3 shadow rounded" style={{marginTop:"10px", width:"25%", marginLeft:"40px"}}>
-    <Barchart></Barchart>
+<div className="bg-white rounded-3 shadow rounded" style={{marginTop:"10px", width:"25%", marginLeft:"40px" }}>
+   <Barchart></Barchart>
+  
 </div>
 </div>
 <br></br>
 
+{/*  ---------------- cards in bottom ------------------------- */}
     <div className=" bs-secondary-color container text-center  row row-cols-3" style={{marginTop:"50px"}}>
       <div className="col">
             <DataCard></DataCard>
